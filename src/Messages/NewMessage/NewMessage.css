@@ -1,0 +1,35 @@
+.divheader{
+    text-align: center;
+    border-bottom: 2px solid rgb(155, 155, 250);
+    height: 50px;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.action{
+    direction: ltr;
+}
+
+.btnAction{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    border: none;
+}
+
+.btnAction:hover{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(10, 244, 166);
+    border: none;
+}
+
+.Error{
+    text-align: center;
+    color: red;
+    font-style: bold;
+    direction: rtl;
+}

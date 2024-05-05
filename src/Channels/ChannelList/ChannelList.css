@@ -1,0 +1,22 @@
+.Addbutton {
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    display:block;
+    border-radius: 10px;
+    border: 1px solid red;
+    color : red;
+    font-size: 44px;
+    font-weight: 700px;
+
+}
+
+.Addbutton:hover{
+    position: absolute;
+    display:block;
+    border-radius: 50%;
+    border: 1px solid rgb(198, 17, 230);
+    color : rgb(235, 10, 190);
+    font-size: 44px;
+    font-weight: 900px;
+}

@@ -1,0 +1,57 @@
+.main-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background-color: azure;
+    border-bottom: solid 1px black ;
+
+}
+
+.main-container img{
+    height: 60px;
+    margin-right: 5px;
+}
+
+.channel-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    padding: 5px 0;
+    font-family: B-Yekan;
+    flex: 1
+}
+
+.channel-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.channel-description{
+    font-size: 14px;
+}
+
+.delete-chennle-btn {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    display:block;
+    border-radius: 50%;
+    border: 1px solid red;
+    color : red;
+}
+
+.delete-chennle-btn:hover {
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    display:block;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 47, 255);
+    color : rgb(255, 0, 149);
+}
+

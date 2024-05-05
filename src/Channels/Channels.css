@@ -1,0 +1,33 @@
+.chanlles-main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: 'column';
+}
+
+.channels-container {
+    width:25%;
+    height: 100vh;
+    overflow-y: auto;
+}
+.messages-main-container {
+    height: 100vh;
+    flex: 1;
+}
+
+.newmsg {
+    width: 74%;
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+}
+.newmsg input {
+    width: 90%;
+    background: rgb(206, 240, 254);
+    border: none;
+}
+
+.newmsg button {
+    width: 10%;
+    height: 30px;
+    border: none;
+}
